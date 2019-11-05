@@ -2,8 +2,66 @@ html {
   box-sizing: border-box;
   background-color: white;
   text-align: center;
-  font-family:
+  font: normal 16px/100% 'Myriad Pro Light', Arial, Helvetica, sans-serif;
+  color: #121212;
 }
+
+body {
+  width: 100vw;
+  height: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  max-width: 100vw;
+  width: 100vw;
+  height: auto;
+}
+
+article {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1440px;
+  height: 645px;
+  background: center center / cover no-repeat url('/Assets/Img/main.jpg');
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  position: relative;
+  top: 85px;
+  width: 980px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background: #707070;
+  background: 
+    -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), 
+    -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, 
+    -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+}
+
+nav ul {
+  width: 845px;
+  height: 100%;
+}
+
