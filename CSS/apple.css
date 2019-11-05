@@ -1,0 +1,9 @@
+html {
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+  font-family:
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
