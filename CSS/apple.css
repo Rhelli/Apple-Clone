@@ -62,11 +62,20 @@ nav div img {
   width: 25px;
 }
 
-nav div {
+nav > div {
   display: inline-block;
   width: 102px;
   height: auto;
+  font: normal 14px/36px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
 
+nav > div > a {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+  color: white;
+  text-decoration: none;
 }
 
 
