@@ -1,6 +1,8 @@
 # 📃 An Excericse in Backgrounds & Gradients
 This project, as a part of a series of projects to be completed by students of [**Microverse**](https://www.microverse.org/ "Microverse.org"), is designed to encourage proficiency in using backgrounds, background images and gradients.
 
+This project was assigned as a solo project.
+
 The spec was to reproduce and clone Apple.com's website from 2014 - as close to the nearest pixel as possible.
 
 ## 🔗 Assignment Links
