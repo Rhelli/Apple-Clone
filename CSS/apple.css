@@ -98,18 +98,23 @@ nav ul li a {
   -moz-border-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D') 0 2 0 1;
   border-width: 0 2px 0 1px;
   background-position: 100% 0;
+  background: none;
   outline: none;
   color: rgba(255, 255, 255, .95);
   text-shadow: #303030 0 -1px 0px;
   overflow: hidden;
 }
 
-nav ul li:hover a {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
-  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
-  -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
-  border-width: 0 2px 0 1px;
-  border-style: solid;
+nav ul li a:hover {
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+    background: #575757;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
+    background-position: 100% 72px;
+}
+
+nav ul li a:first-child:hover {
+  background-position: -50% 0;
 }
 
 /* NAVBAR TEXT */
