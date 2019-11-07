@@ -44,6 +44,11 @@ article {
   background: center bottom / 100% auto no-repeat url('/Assets/Img/main.jpg');
 }
 
+section a {
+  height: 645px;
+  width: 1440px;
+}
+
 /* NAVBAR */
 nav {
   display: block;
@@ -56,6 +61,7 @@ nav {
   font: normal 12.2px/36px "Lucida Grande", Helvetica, Arial, sans-serif;
   letter-spacing: 0.3px;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+  background-image: url('/Assets/Logos/nav-background.png') 100% 50%;
   margin: 83px auto 0 auto;
   border-radius: 4px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
@@ -101,6 +107,14 @@ nav ul li a {
   color: rgba(255, 255, 255, .95);
   text-shadow: #303030 0 -1px 0px;
   overflow: hidden;
+}
+
+nav ul li:hover a {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAQAAADifZiHAAAAJ0lEQ…zE8JeJ4R8q%2Bo%2BKCIH%2FjEA1TAyMSIgJRkIQM9BYAGa0Dj%2FXpUiAAAAAAElFTkSuQmCC) repeat-x 0 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAE0lEQVQIW2P8z8jAwMAIh0wICAAa0gETv9XXOgAAAABJRU5ErkJggg%3D%3D) repeat-y 100% 0, url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAABCAQAAACvIOyMAAAAEklEQVQIW2P8L8TwDwn%2Bh0MGAKnjDAIoAAlcAAAAAElFTkSuQmCC) repeat-y 0 0, rgba(0, 0, 0, .4);
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+  -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4L8TA8F%2FovxAADsEDNFWY%2FFQAAAAASUVORK5CYII%3D) 0 2 0 1;
+  border-width: 0 2px 0 1px;
+  border-style: solid;
 }
 
 /* NAVBAR TEXT */
@@ -210,7 +224,19 @@ header div {
   z-index: 10;
   overflow: hidden;
   height: 31px;
-  margin: 27px auto 0 auto;
+  margin-top: 27px;
+  text-align: center;
+}
+
+header div a {
+  display: inline-block;
+  height: 29px;
+  text-align: center;
+}
+
+header div:hover a img {
+  position: relative;
+  top: -32px;
 }
 
 /* BOTTOM PROMOS */
@@ -284,6 +310,10 @@ footer {
   color: #08c
 }
 
+.footer-container a:hover {
+  text-decoration: underline;
+}
+
 .footer-container::after {
   display: block;
   content: ".";
@@ -341,6 +371,7 @@ footer {
   width: 12px;
   height: 16px;
   zoom: 1;
+  cursor: pointer;
 }
 
 .footer-links li:last-child a img {
