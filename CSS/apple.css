@@ -44,11 +44,6 @@ article {
   background: center bottom / 100% auto no-repeat url('/Assets/Img/main.jpg');
 }
 
-section a {
-  height: 645px;
-  width: 1440px;
-}
-
 /* NAVBAR */
 nav {
   display: block;
