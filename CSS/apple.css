@@ -301,6 +301,7 @@ aside ul li a {
 
 /* FOOTER */
 footer {
+  display: block;
   position: absolute;
   z-index: 1;
   right: 0;
@@ -311,7 +312,7 @@ footer {
   height: 90px;
   padding: 0;
   color: #6e6e6e;
-  font: 0.7rem/120% 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  font: 0.6rem/120% 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
   zoom: 1;
 }
 
@@ -328,6 +329,45 @@ footer {
   width: 49%;
   padding-top: 1.5em;
   text-align: left;
+  margin: 0;
+}
+
+.footer-links {
+  float: right;
+  width: 51%;
+  padding-top: 1.5em;
+  text-align: right;
+  margin: 0;
+  zoom: 1;
+}
+
+.footer-links li {
+  display: inline-block;
+  float: none;
+  margin-right: .6em;
+  padding-right: .6em;
+  border-right: 1px solid #ccc;
+}
+
+.footer-links li:last-child {
+  position: relative;
+  width: 16px;
+  height: 12px;
+  zoom: 1;
+}
+
+.footer-links li:last-child::after {
+  display: block;
+  content:".";
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.footer-links li:last-child a img {
+  width: 16px;
+  height: 16px;
+  image-rendering: crispedges;
 }
 
 
