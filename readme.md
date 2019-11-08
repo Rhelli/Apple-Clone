@@ -25,6 +25,11 @@ The project's current version can be found [**here.**](https://github.com/Rhelli
 ### ✨ The Live Version
 A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/development/index.html)
 
+***
+
+[A Preview of the Site]('Assets/Img/Apple-Clone-Preview')
+
+***
 
 ## 🤝 Contributions
 Feel free to make a contribution or alert me as to any issues.
