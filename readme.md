@@ -22,16 +22,20 @@ This project used a variety of languages to achieve the end goal; namely **HTML5
   - Git
 
 ## 🚀 The Project
-The project's current version can be found [**here.**](https://github.com/Rhelli/Apple-Clone/blob/compatibility-branch/index.html)
+The project's current version can be found [**here.**](https://github.com/Rhelli/Apple-Clone/tree/development)
 
 ### ✨ The Live Version
-A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/compatibility-branch/index.html)
+A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/development/index.html)
+***
 
+[An Image Preview of the Site](Assets/Img/Apple-Clone\ Preview.png)
+
+***
 
 ## 🤝 Contributions
 Feel free to make a contribution or alert me as to any issues.
 
-  1. [**Fork It**](https://github.com/Rhelli/Apple-Clone/tree/development/fork)
+  1. **Fork It**
   2. Create your working branch (git checkout -b [choose-a-name])
   3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
   4. Push to the branch (git push origin [chosen-name])
