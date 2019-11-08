@@ -22,10 +22,10 @@ This project used a variety of languages to achieve the end goal; namely **HTML5
   - Git
 
 ## 🚀 The Project
-The project's current version can be found [**here.**](https://github.com/Rhelli/Apple-Clone/tree/development)
+The project's current version can be found [**here.**](https://github.com/Rhelli/Apple-Clone/blob/master/index.html)
 
 ### ✨ The Live Version
-A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/development/index.html)
+A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/master/index.html)
 ***
 
 ![An Image Preview of the Site](Assets/Img/Apple-Clone-Preview.png)
