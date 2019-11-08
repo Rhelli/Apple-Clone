@@ -57,7 +57,6 @@ nav {
   font: normal 12.2px/36px "Lucida Grande", Helvetica, Arial, sans-serif;
   letter-spacing: 0.3px;
   background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url('../Assets/Logos/nav-glass.png') no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
-  /* background-image: url('../Assets/Logos/nav-background.png') 100% 50%; */
   margin: 83px auto 0 auto;
   border-radius: 4px;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
