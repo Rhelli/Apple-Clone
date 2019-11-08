@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../Assets/Fonts/Myriad\ Pro/MYRIADPRO-REGULAR.woff') format('woff');
+}
+  
+@font-face {
+  font-family: 'Myriad Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../Assets/Fonts/Myriad\ Pro/MyriadPro-Light.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('../Assets/Fonts/Lucida\ Grande/LucidaGrande.woff2') format('woff2'),
+  url('../Assets/Fonts/Lucida\ Grande/LucidaGrande.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lucida Grande';
+  src: url('../Assets/Fonts/Lucida\ Grande/LucidaGrande-Bold.woff2') format('woff2'),
+  url('../Assets/Fonts/Lucida\ Grande/LucidaGrande-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lucida Sans Unicode';
+  src: url('../Assets/Fonts/Lucida-Grande-Unicode/LucidaSansUnicode.woff2') format('woff2'),
+  url('../Assets/Fonts/Lucida-Grande-Unicode/LucidaSansUnicode.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
