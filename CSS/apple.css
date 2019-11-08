@@ -32,7 +32,7 @@ main {
   height: auto;
 }
 
-article {
+section {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
@@ -407,7 +407,7 @@ footer {
   zoom: 1;
 }
 
-.copyright ul div {
+.copyright ul li {
   display: inline-block;
   white-space: nowrap;
   float: none;
@@ -416,7 +416,7 @@ footer {
   border-left: 1px solid #ccc;
 }
 
-.copyright ul div:first-child {
+.copyright ul li:first-child {
   display: inline-block;
   float: none;
   margin-left: 0;
