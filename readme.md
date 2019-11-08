@@ -1,6 +1,8 @@
 # 📃 An Excericse in Backgrounds & Gradients
 This project, as a part of a series of projects to be completed by students of [**Microverse**](https://www.microverse.org/ "Microverse.org"), is designed to encourage proficiency in using backgrounds, background images and gradients.
 
+This project was assigned as a solo project.
+
 The spec was to reproduce and clone Apple.com's website from 2014 - as close to the nearest pixel as possible.
 
 ## 🔗 Assignment Links
@@ -24,17 +26,23 @@ The project's current version can be found [**here.**](https://github.com/Rhelli
 
 ### ✨ The Live Version
 A live version of the page is available [**here.**](https://raw.githack.com/Rhelli/Apple-Clone/development/index.html)
+***
+
+[An Image Preview of the Site](Assets/Img/Apple-Clone\ Preview.png)
 
 ***
+<<<<<<< HEAD
 
 [A Preview of the Site]('Assets/Img/Apple-Clone-Preview')
 
 ***
+=======
+>>>>>>> f2e9517b8d536439ce6db1c9b04d3cd7d7f372b6
 
 ## 🤝 Contributions
 Feel free to make a contribution or alert me as to any issues.
 
-  1. [**Fork It**](https://github.com/Rhelli/Apple-Clone/tree/development/fork)
+  1. **Fork It**
   2. Create your working branch (git checkout -b [choose-a-name])
   3. Commit your changes (git commit -am 'what this commit will fix/add/improve')
   4. Push to the branch (git push origin [chosen-name])
